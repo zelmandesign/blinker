@@ -1,0 +1,11 @@
+version: '3.8' 
+
+services:
+  my-php-apache-app:
+    image: my-php-apache-app 
+    container_name: baselinker
+    ports:
+      - "8080:80" 
+    restart: unless-stopped 
+    volumes:
+      - "./:/var/www/html/public"

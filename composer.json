@@ -1,0 +1,17 @@
+{
+    "name": "andrzejzelman/baselinker",
+    "description": "test assignment",
+    "autoload": {
+        "psr-4": {
+            "Andrzejzelman\\Baselinker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrzej Zelman",
+            "email": "andrzejzelman@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {}
+}
