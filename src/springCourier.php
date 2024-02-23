@@ -115,10 +115,10 @@ class SpringCourier
             // Return error message
             echo 'Error creating label.';
         } else {
-            // $base64Image contains the potentially corrupted base64-encoded string
+            // base64-encoded string
             $base64Image = $labelData['Shipment']['LabelImage'];
 
-            // // Attempt to decode the base64 string
+            // Attempt to decode the base64 string
             $imageData = base64_decode($base64Image);
 
             // Output appropriate headers for PNG image
